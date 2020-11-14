@@ -1,0 +1,51 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* Custom Classes */
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+.z-neg {
+	z-index: -1;
+}
+
+.top-25vh {
+	top: 25vh;
+}
+
+.bottom-4 {
+	bottom: 2.5rem;
+}
+
+.laptop-bg {
+	height: 600px;
+	width: 800px;
+}
+
+.laptop-bg-slide {
+	height: 21.25rem;
+	margin-top: 2.375rem;
+	width: 70%;
+}
+
+.sitting {
+	bottom: 35px;
+	left: 50px;
+}
+
+.bg-video {
+	position: absolute;
+	width: 100%;
+	left: 50%;
+	top: 50%;
+	height: 100%;
+	object-fit: cover;
+	transform: translate(-50%, -50%);
+	z-index: -2;
+}
