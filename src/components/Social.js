@@ -5,7 +5,7 @@ import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 const Social = () => {
 	return (
 		<div className="h-full flex items-center fixed">
-			<div className="flex-col absolute pl-4">
+			<div className="flex-col absolute pl-6">
 				<a href="https://www.google.com" target="_blank">
 					<FaTwitter size="2.25rem" color="white" />
 				</a>
