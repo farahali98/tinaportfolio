@@ -4,7 +4,11 @@ import Social from "./components/Social";
 import Header from "./components/Header";
 import HomePage from "./components/HomePage";
 import About from "./components/About";
-import Services from "./components/Services";
+// import Services from "./components/Services";
+import Skills from "./components/Skills";
+import Testimonials from "./components/Testimonials";
+
+
 
 function App() {
 	return (
@@ -13,7 +17,10 @@ function App() {
 			<Header />
 			<HomePage />
 			<About />
-			<Services />
+			{/* <Services /> */}
+			<Skills/>
+					<Testimonials/>
+
 		</div>
 	);
 }

@@ -4,7 +4,154 @@
 
 @tailwind utilities;
 
+
+
+/*testimonials*/
+*{
+
+font-family: "montserrat",sans-serif;
+ }
+
+.testimonials{
+    padding: 40px 0;
+    text-align: center;
+}
+h1{
+	font-size: 23px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline #4B0082 6px;
+}
+
+ .inner{
+    max-width: 1200px;
+    margin:  auto; 
+    overflow: hidden;
+   padding: 0 20px;
+    
+ 
+}
+.border{
+    width:160px;
+    height: 5px;
+    background: #6ab04c;
+    margin: 26px auto;
+}
+
+.row{
+    display: flex;
+	justify-content: center;
+}
+.personal-info{
+	display: flex;
+}
+
+.col{
+    background-color: white;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    flex: 25%;
+    max-width: 24.3%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-left: 9%;
+
+}
+
+
+.testimonial{
+    background: #fff;
+	padding: 30px;
+	display: flex;
+}
+.testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+} 
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+
+}
+.stars{
+    color: #6ab46a;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
 /* Custom Classes */
+/* Custom Classes */
+/*Skills*/
+.Skills-page{
+   
+	padding: 10%;
+	
+	align-items: center;
+}
+
+
+.Circular-Skills{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 10%;
+	row-gap: 10%;
+	width:33%; 
+	padding:10;	
+}
+
+.companies-title{
+	display: flex;
+	justify-content: center;
+	color: white;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px violet, 0 0 20px violet, 0 0 25px violet, 0 0 30px violet, 0 0 35px violet;
+	width: 33%;	
+	text-align: center;
+	font-size:80px;
+}
+  
+
+.companies img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 12px gray;}
+
+.companies{
+	margin-top: 36px;
+	width: 33%;
+}
+
+.TextRotate {
+    transform: rotate(90deg);
+}
+
+/* .companies img:hover{
+	transform: scale(1.5);
+	} */
+.first-row{
+		align-items: center;
+		margin-left: 36%; 
+}
+.second-row{
+	display: flex;
+	column-gap: 50px; 
+	margin-left: 15%;
+	
+
+}
+.third-row{
+	display: flex;
+	margin-top: 10px;
+	column-gap: 35px; 
+
+}
 
 body {
 	margin: 0;
